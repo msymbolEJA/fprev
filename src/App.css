@@ -1,38 +1,156 @@
-.App {
-  text-align: center;
+/* 1 */
+
+@font-face {
+  font-family: "sofia";
+  src: local("Sofia"), url(./assets/Fonts/Sofia.ttf) format("opentype");
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* 2 */
+
+@font-face {
+  font-family: "Blacksword";
+  src: local("Blacksword"),
+    url(./assets/Fonts/Blacksword.otf) format("opentype");
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+/* 3 */
+
+@font-face {
+  font-family: "Florida";
+  src: local("Florida"), url(./assets/Fonts/Florida.otf) format("opentype");
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+/* 4 */
+
+@font-face {
+  font-family: "Verdana";
+  src: local("Verdana"), url(./assets/Fonts/Verdana.ttf) format("opentype");
 }
 
-.App-link {
-  color: #61dafb;
+/* 5 */
+@font-face {
+  font-family: "Andalusia";
+  src: local("Andalusia"), url(./assets/Fonts/Andalusia.otf) format("opentype");
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/* 6 */
+
+@font-face {
+  font-family: "Brushsci";
+  src: local("Brushsci"), url(./assets/Fonts/brushsci.ttf) format("opentype");
+}
+
+/* 7 */
+
+@font-face {
+  font-family: "Cochocib";
+  src: local("Cochocib"), url(./assets/Fonts/Cochocib.ttf) format("opentype");
+}
+
+/* 8 */
+@font-face {
+  font-family: "Dreaming";
+  src: local("Dreaming"), url(./assets/Fonts/Dreaming.otf) format("opentype");
+}
+
+/* 9 */
+@font-face {
+  font-family: "Edwardian";
+  src: local("Edwardian"), url(./assets/Fonts/Edwardian.ttf) format("opentype");
+}
+
+/* 10 */
+
+@font-face {
+  font-family: "Embassy";
+  src: local("Embassy"), url(./assets/Fonts/Embassy.ttf) format("opentype");
+}
+
+/* 11 */
+@font-face {
+  font-family: "Fairwater";
+  src: local("PlayfairDisplay"),
+    url(./assets/Fonts/PlayfairDisplay.ttf) format("opentype");
+}
+
+/* 12 */
+
+@font-face {
+  font-family: "Fave";
+  src: local("Fave"), url(./assets/Fonts/Fave.ttf) format("opentype");
+}
+
+/* 13 */
+@font-face {
+  font-family: "Fabulous";
+  src: local("Fabulous"), url(./assets/Fonts/Fabulous.ttf) format("opentype");
+}
+
+/* 14 */
+
+@font-face {
+  font-family: "Katherine";
+  src: local("Katherine"), url(./assets/Fonts/Katherine.otf) format("opentype");
+}
+/* 15 */
+
+@font-face {
+  font-family: "Olivia";
+  src: local("Olivia"), url(./assets/Fonts/Olivia.otf) format("opentype");
+}
+
+/* 16 */
+
+@font-face {
+  font-family: "Kelly";
+  src: local("Kelly"), url(./assets/Fonts/Kelly.otf) format("opentype");
+}
+
+/* 17 */
+
+@font-face {
+  font-family: "Jake";
+  src: local("Jake"), url(./assets/Fonts/Jake.otf) format("opentype");
+}
+
+/* 18 */
+
+@font-face {
+  font-family: "Chris";
+  src: local("Chris"), url(./assets/Fonts/Chris.ttf) format("opentype");
+}
+
+/* 19 */
+
+@font-face {
+  font-family: "Highest";
+  src: local("Highest"), url(./assets/Fonts/Highest.otf) format("opentype");
+}
+
+/* 20 */
+
+@font-face {
+  font-family: "Jennifer";
+  src: local("Jennifer"), url(./assets/Fonts/Jennifer.otf) format("opentype");
+}
+
+/* 21 */
+
+@font-face {
+  font-family: "Rachel";
+  src: local("Rachel"), url(./assets/Fonts/Rachel.ttf) format("opentype");
+}
+
+/* 22 */
+
+@font-face {
+  font-family: "Tahoe";
+  src: local("Tahoe"), url(./assets/Fonts/Tahoe.otf) format("opentype");
+}
+
+/* 23 */
+
+@font-face {
+  font-family: "Verde";
+  src: local("Verde"), url(./assets/Fonts/Verde.ttf) format("opentype");
 }
