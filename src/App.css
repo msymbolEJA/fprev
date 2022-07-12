@@ -1,7 +1,7 @@
 /* 1 */
 
 @font-face {
-  font-family: "sofia";
+  font-family: "Sofia";
   src: local("Sofia"), url(./assets/Fonts/Sofia.ttf) format("opentype");
 }
 
@@ -23,14 +23,14 @@
 /* 4 */
 
 @font-face {
-  font-family: "Verdana";
-  src: local("Verdana"), url(./assets/Fonts/Verdana.ttf) format("opentype");
+  font-family: "Vladimir";
+  src: local("Vladimir"), url(./assets/Fonts/Vladimir.ttf) format("opentype");
 }
 
 /* 5 */
 @font-face {
-  font-family: "Andalusia";
-  src: local("Andalusia"), url(./assets/Fonts/Andalusia.otf) format("opentype");
+  font-family: "Magneto";
+  src: local("Magneto"), url(./assets/Fonts/Magteto.ttf) format("opentype");
 }
 
 /* 6 */
@@ -43,114 +43,97 @@
 /* 7 */
 
 @font-face {
-  font-family: "Cochocib";
-  src: local("Cochocib"), url(./assets/Fonts/Cochocib.ttf) format("opentype");
-}
-
-/* 8 */
-@font-face {
-  font-family: "Dreaming";
-  src: local("Dreaming"), url(./assets/Fonts/Dreaming.otf) format("opentype");
-}
-
-/* 9 */
-@font-face {
   font-family: "Edwardian";
   src: local("Edwardian"), url(./assets/Fonts/Edwardian.ttf) format("opentype");
 }
 
-/* 10 */
+/* 8 */
 
 @font-face {
   font-family: "Embassy";
   src: local("Embassy"), url(./assets/Fonts/Embassy.ttf) format("opentype");
 }
 
-/* 11 */
-@font-face {
-  font-family: "Fairwater";
-  src: local("PlayfairDisplay"),
-    url(./assets/Fonts/PlayfairDisplay.ttf) format("opentype");
-}
-
-/* 12 */
+/* 9 */
 
 @font-face {
   font-family: "Fave";
   src: local("Fave"), url(./assets/Fonts/Fave.ttf) format("opentype");
 }
 
-/* 13 */
+/* 10 */
+
 @font-face {
   font-family: "Fabulous";
   src: local("Fabulous"), url(./assets/Fonts/Fabulous.ttf) format("opentype");
 }
 
-/* 14 */
+/* 11 */
 
 @font-face {
-  font-family: "Katherine";
-  src: local("Katherine"), url(./assets/Fonts/Katherine.otf) format("opentype");
-}
-/* 15 */
-
-@font-face {
-  font-family: "Olivia";
-  src: local("Olivia"), url(./assets/Fonts/Olivia.otf) format("opentype");
+  font-family: "Austria";
+  src: local("Austria"), url(./assets/Fonts/Austria.ttf) format("opentype");
 }
 
-/* 16 */
+/* 12 */
 
 @font-face {
   font-family: "Kelly";
   src: local("Kelly"), url(./assets/Fonts/Kelly.otf) format("opentype");
 }
 
+/* 13*/
+@font-face {
+  font-family: "Mistral";
+  src: local("Mistral"), url(./assets/Fonts/Mistral.ttf) format("opentype");
+}
+
+/* 14 */
+
+@font-face {
+  font-family: "Abundant";
+  src: local("Abundant"), url(./assets/Fonts/Abundant.ttf) format("opentype");
+}
+
+/* 15 */
+
+@font-face {
+  font-family: "Mystical Snow";
+  src: local("Mystical_Snow"),
+    url(./assets/Fonts/Mystical_Snow.ttf) format("opentype");
+}
+
+/* 16 */
+
+@font-face {
+  font-family: "Palace";
+  src: local("Palace"), url(./assets/Fonts/Palace.ttf) format("opentype");
+}
+
 /* 17 */
 
 @font-face {
-  font-family: "Jake";
-  src: local("Jake"), url(./assets/Fonts/Jake.otf) format("opentype");
+  font-family: "Naifah";
+  src: local("Naifah"), url(./assets/Fonts/Naifah.ttf) format("opentype");
 }
 
 /* 18 */
 
 @font-face {
-  font-family: "Chris";
-  src: local("Chris"), url(./assets/Fonts/Chris.ttf) format("opentype");
+  font-family: "Daniella";
+  src: local("Daniella"), url(./assets/Fonts/Daniella.ttf) format("opentype");
 }
 
 /* 19 */
 
 @font-face {
-  font-family: "Highest";
-  src: local("Highest"), url(./assets/Fonts/Highest.otf) format("opentype");
+  font-family: "Aprilisa";
+  src: local("Aprilisa"), url(./assets/Fonts/Aprilisa.ttf) format("opentype");
 }
 
 /* 20 */
 
 @font-face {
-  font-family: "Jennifer";
-  src: local("Jennifer"), url(./assets/Fonts/Jennifer.otf) format("opentype");
-}
-
-/* 21 */
-
-@font-face {
-  font-family: "Rachel";
-  src: local("Rachel"), url(./assets/Fonts/Rachel.ttf) format("opentype");
-}
-
-/* 22 */
-
-@font-face {
-  font-family: "Tahoe";
-  src: local("Tahoe"), url(./assets/Fonts/Tahoe.otf) format("opentype");
-}
-
-/* 23 */
-
-@font-face {
-  font-family: "Verde";
-  src: local("Verde"), url(./assets/Fonts/Verde.ttf) format("opentype");
+  font-family: "Verdana";
+  src: local("Verdana"), url(./assets/Fonts/Verdana.ttf) format("opentype");
 }
