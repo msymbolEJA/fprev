@@ -16,8 +16,8 @@
 /* 3 */
 
 @font-face {
-  font-family: "Florida";
-  src: local("Florida"), url(./assets/Fonts/Florida.otf) format("opentype");
+  font-family: "Script";
+  src: local("Script"), url(./assets/Fonts/Script.ttf) format("opentype");
 }
 
 /* 4 */
@@ -30,7 +30,7 @@
 /* 5 */
 @font-face {
   font-family: "Magneto";
-  src: local("Magneto"), url(./assets/Fonts/Magteto.ttf) format("opentype");
+  src: local("Magneto"), url(./assets/Fonts/Magneto.ttf) format("opentype");
 }
 
 /* 6 */
@@ -78,8 +78,8 @@
 /* 12 */
 
 @font-face {
-  font-family: "Kelly";
-  src: local("Kelly"), url(./assets/Fonts/Kelly.otf) format("opentype");
+  font-family: "Lucida";
+  src: local("Lucida"), url(./assets/Fonts/Lucida.ttf) format("opentype");
 }
 
 /* 13*/
@@ -98,7 +98,7 @@
 /* 15 */
 
 @font-face {
-  font-family: "Mystical Snow";
+  font-family: "Mystical_Snow";
   src: local("Mystical_Snow"),
     url(./assets/Fonts/Mystical_Snow.ttf) format("opentype");
 }

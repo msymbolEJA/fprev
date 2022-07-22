@@ -2,30 +2,30 @@ import { useState } from "react";
 import "./App.css";
 
 const fontFamilies = [
-  "Sofia",
-  "Blacksword",
-  "Florida",
-  "Vladimir",
-  "Magneto",
-  "Brushsci",
-  "Edwardian",
-  "Embassy",
-  "Fave",
-  "Fabulous",
-  "Austria",
-  "Kelly",
-  "Mistral",
-  "Abundant",
-  "Mystical",
-  "Palace",
-  "Naifah",
-  "Daniella",
-  "Aprilisa",
-  "Verdana",
+  { font: "Sofia", shopName: "New York" },
+  { font: "Blacksword", shopName: "Carolina" },
+  { font: "Script", shopName: "Florida" },
+  { font: "Vladimir", shopName: "Veranda" },
+  { font: "Magneto", shopName: "Magnet" },
+  { font: "Brushsci", shopName: "Everest" },
+  { font: "Edwardian", shopName: "Heather" },
+  { font: "Embassy", shopName: "Brittany" },
+  { font: "Fave", shopName: "Shirley" },
+  { font: "Fabulous", shopName: "Fabulous" },
+  { font: "Austria", shopName: "Austria" },
+  { font: "Lucida", shopName: "Kelly" },
+  { font: "Mistral", shopName: "Montana" },
+  { font: "Abundant", shopName: "Chris" },
+  { font: "Mystical_Snow", shopName: "Mystic" },
+  { font: "Palace", shopName: "Jennifer" },
+  { font: "Naifah", shopName: "Charlie" },
+  { font: "Daniella", shopName: "Daniel" },
+  { font: "Aprilisa", shopName: "April" },
+  { font: "Verdana", shopName: "VERDE" }
 ];
 
 function App() {
-  const [text, setText] = useState("Custom");
+  const [text, setText] = useState("");
   const [fontSize, setFontSize] = useState(60);
 
   return (
@@ -58,8 +58,7 @@ function App() {
             <input
               type="text"
               className="form-control mt-3 mb-3"
-              placeholder="Username"
-              aria-label="Username"
+              placeholder="Enter your name here"
               value={text}
               onChange={(e) => setText(e.target.value)}
             />
@@ -97,17 +96,17 @@ function App() {
                   backgroundColor: "#DCFBFC",
                 }}
               >
-                {fontFamily.toUpperCase()}
+                {fontFamily.shopName.toUpperCase()}
               </div>
               <div className="card-body">
                 <p
                   className="card-text mt-5 mb-5"
-                  style={{ fontFamily, fontSize: fontSize }}
+                  style={{ fontFamily: fontFamily.font, fontSize: fontSize }}
                 >
-                  {text.trim().length ? text : "Custom"}
+                  {text.trim().length ? text : fontFamily.shopName}
                 </p>
                 <a
-                  href="/" /* Link */
+                  href="https://www.etsy.com/shop/NameSignWorks"
                   className="btn text-light"
                   style={{ backgroundColor: "#7B1FA2", padding: 10 }}
                 >
