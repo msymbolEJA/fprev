@@ -2,26 +2,26 @@ import { useState } from "react";
 import "./App.css";
 
 const fontFamilies = [
-  { font: "Sofia", shopName: "Lemon" },
-  { font: "Blacksword", shopName: "Peach" },
-  { font: "Script", shopName: "Apple" },
-  { font: "Vladimir", shopName: "Melon" },
-  { font: "Magneto", shopName: "Charlotte" },
-  { font: "Brushsci", shopName: "Himalaya" },
-  { font: "Edwardian", shopName: "Spring" },
-  { font: "Embassy", shopName: "Corpus" },
-  { font: "Fave", shopName: "Oliver" },
-  { font: "Fabulous", shopName: "Campanella" },
-  { font: "Austria", shopName: "Beverly" },
-  { font: "Lucida", shopName: "Grand" },
-  { font: "Mistral", shopName: "Marcus" },
-  { font: "Abundant", shopName: "Atlantic" },
-  { font: "Mystical_Snow", shopName: "Comic" },
-  { font: "Palace", shopName: "Roma" },
-  { font: "Naifah", shopName: "Smile" },
-  { font: "Daniella", shopName: "Drift" },
-  { font: "Aprilisa", shopName: "Camel" },
-  { font: "Verdana", shopName: "Classic" }
+  { font: "Sofia", shopName: "New York" },
+  { font: "Blacksword", shopName: "Carolina" },
+  { font: "Script", shopName: "Florida" },
+  { font: "Vladimir", shopName: "Veranda" },
+  { font: "Magneto", shopName: "Magnet" },
+  { font: "Brushsci", shopName: "Everest" },
+  { font: "Edwardian", shopName: "Heather" },
+  { font: "Embassy", shopName: "Brittany" },
+  { font: "Fave", shopName: "Shirley" },
+  { font: "Fabulous", shopName: "Fabulous" },
+  { font: "Austria", shopName: "Austria" },
+  { font: "Lucida", shopName: "Kelly" },
+  { font: "Mistral", shopName: "Montana" },
+  { font: "Abundant", shopName: "Chris" },
+  { font: "Mystical_Snow", shopName: "Mystic" },
+  { font: "Palace", shopName: "Jennifer" },
+  { font: "Naifah", shopName: "Charlie" },
+  { font: "Daniella", shopName: "Daniel" },
+  { font: "Aprilisa", shopName: "April" },
+  { font: "Verdana", shopName: "VERDE" }
 ];
 
 function App() {
@@ -30,9 +30,12 @@ function App() {
 
   return (
     <div className="container-fluid">
-      <div className="row" style={{ backgroundColor: "#223843" }}>
-        <div className="fs-4 text-center pt-3 pb-3 text-light">
-          FONT GENERATOR FOR YOUR NAME
+      <div className="row" style={{ backgroundColor: "#DCFBFC" }}>
+        <div className="col-md-6 fs-4 text-center pt-3 pb-3">
+          STEP ONE: ENTER YOUR TEXT/NAME
+        </div>
+        <div className="col-md-6 fs-4 text-center pt-3 pb-3">
+          STEP TWO: CLICK "BUY NOW"
         </div>
       </div>
       <div className="row mt-3 mb-3">
@@ -41,7 +44,7 @@ function App() {
           style={{ fontSize: "1.3rem", fontFamily: "Tahoma" }}
         >
           <p>
-            Designs can change depending on the font you select. The
+            The design of your name will vary depending on the font type. The
             lines may be thickened or letters attached to each other differently
             than what is shown in the preview in order to increase the stability
             of the design.
@@ -50,8 +53,8 @@ function App() {
       </div>
 
       <div className="p-5 pt-0">
-        <div className="row d-flex align-items-center col-md-4 text-center m-auto">
-          <div className="">
+        <div className="row d-flex align-items-center">
+          <div className="col-md-6">
             <input
               type="text"
               className="form-control mt-3 mb-3"
@@ -60,9 +63,17 @@ function App() {
               onChange={(e) => setText(e.target.value)}
             />
           </div>
-          <div className="">
+          <div className="col-md-6">
             <div className="font-size d-flex">
+              <label
+                htmlFor="customRange1"
+                className="form-label"
+                style={{ width: "15%" }}
+              >
+                Font Size :{" "}
+              </label>
               <input
+                style={{ width: "90%" }}
                 type="range"
                 className="form-range"
                 id="customRange1"
@@ -82,7 +93,7 @@ function App() {
                 className="card-header p-3 fs-5 fw-bold"
                 style={{
                   fontFamily: "Tahoma",
-                  backgroundColor: "#eff1f3",
+                  backgroundColor: "#DCFBFC",
                 }}
               >
                 {fontFamily.shopName.toUpperCase()}
@@ -97,9 +108,9 @@ function App() {
                 <a
                   href="https://www.etsy.com/shop/NameSignWorks"
                   className="btn text-light"
-                  style={{ backgroundColor: "#d8b4a0", padding: 10 }}
+                  style={{ backgroundColor: "#7B1FA2", padding: 10 }}
                 >
-                  VISIT ON ETSY
+                  Buy Now
                 </a>
               </div>
             </div>
