@@ -95,7 +95,7 @@ function App() {
                   {text.trim().length ? text : fontFamily.shopName}
                 </p>
                 <a
-                  href="https://www.etsy.com/shop/NameSignWorks"
+                  href="https://www.etsy.com/shop/TurquoiseWoodland"
                   className="btn text-light"
                   style={{ backgroundColor: "#d8b4a0", padding: 10 }}
                 >
