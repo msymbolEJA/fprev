@@ -64,8 +64,8 @@
 /* 10 */
 
 @font-face {
-  font-family: "Fabulous";
-  src: local("Fabulous"), url(./assets/Fonts/Fabulous.ttf) format("opentype");
+  font-family: "FrenchScriptMT";
+  src: local("FrenchScriptMT"), url(./assets/Fonts/FrenchScriptMT.ttf) format("opentype");
 }
 
 /* 11 */

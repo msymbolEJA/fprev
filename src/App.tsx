@@ -11,7 +11,7 @@ const fontFamilies = [
   { font: "Edwardian", shopName: "Spring" },
   { font: "Embassy", shopName: "Corpus" },
   { font: "Fave", shopName: "Oliver" },
-  { font: "Fabulous", shopName: "Campanella" },
+  { font: "FrenchScriptMT", shopName: "Campanella" },
   { font: "Austria", shopName: "Beverly" },
   { font: "Lucida", shopName: "Grand" },
   { font: "Mistral", shopName: "Marcus" },
